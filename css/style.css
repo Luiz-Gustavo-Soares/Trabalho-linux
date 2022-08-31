@@ -98,6 +98,7 @@ main h2{
 .part {
     margin: 20px;
     transition: 200ms;
+    filter: grayscale(100%);
 }
 
 .part img {
@@ -109,6 +110,7 @@ main h2{
 
 .part:hover {
     transform: scale(1.1);
+    filter: grayscale(0%);
 }
 
 .part p {
